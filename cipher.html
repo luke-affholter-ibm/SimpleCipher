@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 style="text-align: center;">Simple Secure* Cipher</h1>
+    <p style="text-align: center;">*Not actually secure. Please don't sue.</p>
+    
+<div id="messageBox" style="margin: 0 auto; width: 200px;">
+    <input type="text" id="messageInput" placeholder="Type your message here">
+</div>
+<div id="messageButtons" style="margin: 0 auto; width: 200px;">
+    <button id="submitButton" onclick="submitClick()">Submit</button>
+    <button id="resetButton" onclick="resetClick()">Reset</button>
+    <button id="clearButton" onclick="clearClick()">Clear</button>
+    <p id="debug"></p>
+</div>
+<p>Database entries:</p>
+    <div id="entryList" style="width: 500px;">
+	<p id="entry1"></p>
+	<p id="entry2"></p>
+	<p id="entry3"></p>
+	<p id="entry4"></p>
+	<p id="entry5"></p>
+	<p id="entry6"></p>
+	<p id="entry7"></p>
+	<p id="entry8"></p>
+	<p id="entry9"></p>
+	<p id="entry10"></p>
+    </div>
+    <div id="cipherSelect" style="width: 500px;">
+	<p>Select Entry to modify</p>
+	<select id="entryDropdown">
+        <option value="d1">1</option>
+        <option value="d2">2</option>
+        <option value="d3">3</option>
+        <option value="d4">4</option>
+        <option value="d5">5</option>
+        <option value="d6">6</option>
+        <option value="d7">7</option>
+        <option value="d8">8</option>
+        <option value="d9">9</option>
+        <option value="d10">10</option>
+	</select>
+	<input type="text" id="cipherKey" placeholder="Enter key">
+    </div>
+    <div id="cipherButtons" style="width: 500px;">
+	<button id="encryptButton" onclick="encryptClick()">Encrypt</button>
+	<button id="decryptButton" onclick="decryptClick()">Decrypt</button>
+    </div>
+    
+    <script src="handler.js"></script>
+</body>
+</html>
