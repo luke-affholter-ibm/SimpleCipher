@@ -1,5 +1,4 @@
-Project presentation
-
+README
 
 Project objective: 
 Create an algorithm within Python that would encrypt a user's message using a key phrase
