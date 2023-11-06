@@ -59,7 +59,7 @@ Clear: Clears all entries, leaving the database empty (structure intact)
 Dropdown: to select which entry you want to modify
 Key phrase box: Enter the key you want to use to encrypt your message
 Encrypt: Runs the encrypt.py script to encrypt your message
-Decrypt: Runs the decrypt.py script to encrypt your message
+Decrypt: Runs the decrypt.py script to decrypt your message
 
 Whenever an operation interacts with the database, it passes its information to the dbOps.py file
 which handles the database queries.
